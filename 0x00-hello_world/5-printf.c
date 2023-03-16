@@ -2,7 +2,7 @@
 /**
   * main - Entry point
   *
-  * Description: C program with print function
+  * Description: A C program that prints with printf function.
   *
   * Return: Always 0 (success000)
 */
