@@ -8,10 +8,15 @@ int main(void)
 {
 	int x = 97;
 
-	while (x >= 97 && x <= 122 && x != 101 && x != 113)
+	while (x <= 122)
 	{
+		if (x == 101 || x == 103)
+		{
+			x++;
+			continue;
+		}
 		putchar(x);
-		x = x + 1;
+		x++;
 	}
 	putchar('\n');
 	return (0);
