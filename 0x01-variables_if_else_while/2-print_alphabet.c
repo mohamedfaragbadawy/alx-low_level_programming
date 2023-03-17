@@ -8,7 +8,7 @@ int main(void)
 {
 	int x = 97;
 
-	if (x >= 97 && x <= 122)
+	while (x >= 97 && x <= 122)
 	{
 		putchar(x);
 		putchar('\n');
