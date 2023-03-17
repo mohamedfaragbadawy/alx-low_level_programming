@@ -12,11 +12,13 @@ int main(void)
 	while (x >= 97 && x <= 122)
 	{
 		putchar(x);
+		x = x + 1;
 	}
-	putchar('\n');
 	while (y >= 65 && y <= 90)
 	{
 		putchar(y);
+		y = y + 1;
 	}
+	putchar('\n');
 	return (0);
 }
