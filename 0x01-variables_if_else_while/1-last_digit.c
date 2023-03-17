@@ -1,6 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
+/**
+ * main - Entry point
+ * Description: A C program that prints with printf function.
+ * Return: Always 0 (success000)
+*/
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
