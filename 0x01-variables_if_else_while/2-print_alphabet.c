@@ -11,7 +11,6 @@ int main(void)
 	while (x >= 97 && x <= 122)
 	{
 		putchar(x);
-		putchar('\n');
 		x = x + 1;
 	}
 	return (0);
