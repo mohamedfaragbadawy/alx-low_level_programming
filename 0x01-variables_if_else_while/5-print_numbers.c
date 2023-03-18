@@ -10,7 +10,7 @@ int main(void)
 
 	while (n <= 57)
 	{
-		printf("%i", n);
+		putchar(n);
 		n++;
 	}
 	putchar('\n');
